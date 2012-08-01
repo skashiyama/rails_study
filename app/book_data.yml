@@ -1,0 +1,26 @@
+VPN:
+ id: 1
+ isbn: abcd00
+ name: Virtual Private Network
+ published: 2011-03-11
+ publisher: ABC publisher
+ price: 2000
+ author: john
+
+travel:
+ id: 2
+ isbn: kkkk22
+ name: around London
+ published: 2000-12-12
+ publisher: hello publisher
+ price: 2500
+ author: smith
+
+chemistry:
+ id:3
+ isbn: 8888888
+ name: organisms
+ published: 2012-01-11
+ publisher: science publisher
+ price: 2800
+ author: Ann

@@ -1,0 +1,5 @@
+<body>
+  <table>
+    <tr><td><%=@msg1%></td><td><%=@msg2%></td></tr>
+  </table>
+</body>
