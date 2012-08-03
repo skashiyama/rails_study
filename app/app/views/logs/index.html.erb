@@ -1,0 +1,33 @@
+<h1>Listing logs</h1>
+
+<table>
+  <tr>
+    <th>Account</th>
+    <th>User</th>
+    <th>Do at</th>
+    <th>Difference</th>
+    <th>Result balance</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @logs.each do |log| %>
+  <tr>
+    <td><%= log.account_id %></td>
+    <td><%= log.user_id %></td>
+    <td><%= log.do_at %></td>
+    <td><%= log.difference %></td>
+    <td><%= log.result_balance %></td>
+    <td><%= log.description %></td>
+    <td><%= link_to 'Show', log %></td>
+    <td><%= link_to 'Edit', edit_log_path(log) %></td>
+    <td><%= link_to 'Destroy', log, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Log', new_log_path %>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Account:</b>
+  <%= @log.account_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @log.user_id %>
+</p>
+
+<p>
+  <b>Do at:</b>
+  <%= @log.do_at %>
+</p>
+
+<p>
+  <b>Difference:</b>
+  <%= @log.difference %>
+</p>
+
+<p>
+  <b>Result balance:</b>
+  <%= @log.result_balance %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @log.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_log_path(@log) %> |
+<%= link_to 'Back', logs_path %>

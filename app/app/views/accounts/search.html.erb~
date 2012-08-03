@@ -1,0 +1,5 @@
+<%= form_tag({:controller => 'keyword',: action => 'search'}, {:id => 'rm', :class => 'search' }) do %>
+ search for:
+ <%= text_field_tag 'keywd', '', { :size => 30 } %>
+ <%= submit_tag '検索' %>
+<% end %>

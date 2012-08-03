@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  account_id: 00001
+  user_id: 00001
+  do_at: 2012-08-03
+  difference: +2000
+  result_balance: 10000
+  description: deposit
+
+two:
+  account_id: 00002
+  user_id: 00002
+  do_at: 2012-08-03
+  difference: -20000
+  result_balance: 300023
+  description: withdraw

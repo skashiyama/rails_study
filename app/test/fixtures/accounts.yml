@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  account_id: 00001
+  user_id: 00001
+  balance: 10000
+
+two:
+  account_id: 00002
+  user_id: 00002
+  balance: 300023

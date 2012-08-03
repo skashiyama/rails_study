@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  account_id: MyString
+  user_id: MyString
+  do_at: 2012-08-03
+  difference: MyString
+  result_balance: 1
+  description: MyString
+
+two:
+  account_id: MyString
+  user_id: MyString
+  do_at: 2012-08-03
+  difference: MyString
+  result_balance: 1
+  description: MyString
