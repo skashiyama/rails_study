@@ -9,9 +9,33 @@ one:
   account_id: 00001
 
 two:
-  user_id: 00001
+  user_id: 00002
   firstname: niku
   lastname: yasai
   password: timtam
   phone_number: 090987654321
   account_id: 00002
+
+three:
+  user_id: 00003
+  firstname: hello
+  lastname: world
+  password: abcdefg
+  phone_number: 09011111111
+  account_id: 00003
+
+four:
+  user_id: 00004
+  firstname: taro
+  lastname: yamada
+  password: 88884444
+  phone_number: 09022222222
+  account_id: 00004
+
+five:
+  user_id: 00005
+  firstname: jiro
+  lastname: satoh
+  password: yyyttrur
+  phone_number: 09011111111
+  account_id: 00005

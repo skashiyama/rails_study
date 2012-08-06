@@ -1,4 +1,9 @@
 <%= form_for(@book) do|f| %>
 <div class = "field">
-  <%= f.label :isbn %>
-  <%= f.text_field :isbn { size => 25
+  <%= f.text_field :user_id, { :size=>25 :maxlength=>"25"} %> <br/>
+  <%= f.password_field :password {:maxlength => 15 :disabled => true } %> <br/>
+  <%= f.text_field :first_name, { :size => 15 :maxlength =>"15"} %> <br/>
+  <%= f.text_field :last_name, { :size => 15 :maxlength => "15"} %>
+  <%= f.text_field :phone_number, { :size => 15 :maxlength => "15"} %>
+  </div>
+<% end %>

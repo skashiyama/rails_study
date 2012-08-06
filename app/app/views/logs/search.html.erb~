@@ -1,0 +1,4 @@
+<%= form_for(@log) do |f| %>
+  <%= f.collection_select (:do_at, @log, :do_at, :do_at) %>
+<% end %>
+  

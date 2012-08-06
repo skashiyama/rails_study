@@ -21,7 +21,7 @@
   </div>
   <div class="field">
     <%= f.label :balance %><br />
-    <%= f.number_field :balance %>
+    <%= f.number_field :balance, {:min => 0}%>
   </div>
   <div class="actions">
     <%= f.submit %>

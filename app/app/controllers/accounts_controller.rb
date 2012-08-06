@@ -3,11 +3,12 @@ class AccountsController < ApplicationController
   # GET /accounts.json
   def index
     @accounts = Account.all
-
+    
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @accounts }
     end
+
   end
 
   # GET /accounts/1
@@ -84,4 +85,5 @@ class AccountsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
 end

@@ -3,7 +3,8 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
-
+    # @users = User.find_by_user_id([3,5])
+    
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @users }
@@ -80,4 +81,6 @@ class UsersController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+
 end

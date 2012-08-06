@@ -6,7 +6,7 @@
       <ul>
       <% @log.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
-      <% end %>
+     <% end %>
       </ul>
     </div>
   <% end %>
@@ -21,7 +21,7 @@
   </div>
   <div class="field">
     <%= f.label :do_at %><br />
-    <%= f.date_select :do_at %>
+    <%= f.date_select :do_at, :use_month_numbers=>true, :use_year_numbers=>true, :start_year => 1990, :end_year => Time.now.year%>
   </div>
   <div class="field">
     <%= f.label :difference %><br />
@@ -29,7 +29,7 @@
   </div>
   <div class="field">
     <%= f.label :result_balance %><br />
-    <%= f.number_field :result_balance %>
+    <%= f.number_field :result_balance, {:min=>0}%>
   </div>
   <div class="field">
     <%= f.label :description %><br />

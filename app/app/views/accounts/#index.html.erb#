@@ -1,9 +1,3 @@
-<% content_for :extend_menu do %>
-  [<%= link_to 'new', :action => 'new' %>]
-  [<%= link_to 'edit', :action => 'edit' %>]
-  [<%= link_to 'delete', :action => 'destroy' %>]
-<% end %>
-<title>listing accounts</title>
 <h1>Listing accounts</h1>
 
 <table>
@@ -17,7 +11,7 @@
   </tr>
 
 <% @accounts.each do |account| %>
-  <tr style="background-color:<%= cycle('#FFffFF','#FFff99')%>" >
+  <tr style="background-color:<%= cycle('#FFffFF',#FFff99')%>" >
     <td><%= account.account_id %></td>
     <td><%= account.user_id %></td>
     <td><%= account.balance %></td>
