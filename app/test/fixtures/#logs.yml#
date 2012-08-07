@@ -17,6 +17,22 @@ two:
   description: withdraw
 
 three:
+  account_id: 00003
+  user_id: 00003
+  do_at: 2012-08-05
+  difference: -4000
+  result_balance: 300023
+  description: withdraw
+
+four:
+  account_id: 00002
+  user_id: 00002
+  do_at: 2012-08-03
+  difference: -20000
+  result_balance: 300023
+  description: withdraw
+
+five:
   account_id: 00002
   user_id: 00002
   do_at: 2012-08-03
